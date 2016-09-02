@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Playing with Layout</title>
+
+    <style>
+        html
+        {
+            height: 100%;
+        }
+        body
+        {
+            background: linear-gradient(black, red);
+            margin: 0;
+            padding: 0;
+        }
+        #container
+        {
+            width: 80%;
+            background-color: #FFFFFF;
+            margin: 25px auto;
+            padding: 15px;
+            box-shadow: 10px 10px 5px #111111;
+        }
+        #hero
+        {
+            height: 200px;
+            width: 100%;
+            background-color: darkkhaki;
+            box-shadow: 5px 5px 2px #222222;
+        }
+        #bottomSection
+        {
+            overflow: hidden;
+            margin-top: 15px;
+        }
+        #leftSection
+        {
+            float: left;
+            width: 30%;
+        }
+        #rightSection
+        {
+            float: right;
+            width: 65%;
+        }
+        .myLink
+        {
+            display: block;
+        }
+        h4
+        {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="hero">
+
+        </div>
+
+        <div id="bottomSection">
+            <div id="leftSection">
+                <a class="myLink" href="">
+                    <img src="" alt="first link" />
+                    <span>I'm awesome</span>
+                </a>
+                <a class="myLink" href="">
+                    <img src="" alt="second link" />
+                    <span>I'm adequate</span>
+                </a>
+                <a class="myLink" href="">
+                    <img src="" alt="third link" />
+                    <span>I suck</span>
+                </a>
+            </div>
+
+            <div id="rightSection">
+                <h4>A different section</h4>
+                <p>Bacon ipsum dolor amet alcatra bacon shoulder, pork chop ham hock pork loin ribeye shank landjaeger chicken spare ribs prosciutto tri-tip shankle andouille. Bacon picanha meatball pork loin alcatra boudin pork sirloin tongue. Hamburger frankfurter ball tip, strip steak andouille kielbasa pork loin tenderloin pancetta sirloin chuck. Tail chuck beef ribs brisket hamburger jerky short ribs ham hock prosciutto kevin meatloaf tenderloin capicola tri-tip. Chicken porchetta spare ribs pork loin, short loin alcatra ribeye tail. Porchetta pork shoulder picanha rump. Turkey venison chicken pastrami kevin short loin.</p>
+                <p>Brisket frankfurter cow meatloaf t-bone filet mignon. Corned beef prosciutto kevin pork belly t-bone. T-bone pork chop cow prosciutto andouille ham. Drumstick capicola ball tip, corned beef venison turkey pastrami alcatra turducken. Frankfurter spare ribs kevin, venison flank pork chop shankle biltong boudin ribeye pork landjaeger. Ribeye andouille pork loin pork belly corned beef leberkas jowl pork chop sirloin tail. Drumstick andouille ground round pastrami jerky shank frankfurter ribeye pork belly ball tip.</p>
+                <p>Sirloin tri-tip boudin drumstick tenderloin, pastrami ribeye pig. Beef ribs kevin cupim short ribs, bacon strip steak ham shank salami picanha hamburger. Pork loin corned beef alcatra andouille landjaeger tail. Ribeye drumstick leberkas salami.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
