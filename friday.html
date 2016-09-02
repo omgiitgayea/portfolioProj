@@ -11,6 +11,7 @@
         }
         body
         {
+            font-family: "Lucida Grande", Verdana, sans-serif;
             background: linear-gradient(black, red);
             margin: 0;
             padding: 0;
@@ -25,6 +26,10 @@
         }
         #hero
         {
+            text-align: center;
+            font-size: 50px;
+            font-style: italic;
+            font-weight: bold;
             height: 200px;
             width: 100%;
             background-color: darkkhaki;
@@ -48,11 +53,34 @@
         .myLink
         {
             display: block;
+            color: chocolate;
+            width: 100%;
+            float: left;
+            padding: 10px;
+            border-bottom: 1px solid black;
+        }
+        a span
+        {
+            float: left;
+            padding: 10px;
+        }
+        img
+        {
+            width: 100px;
+            float: left;
         }
         h4
         {
             margin-top: 0;
             margin-bottom: 0;
+        }
+        #triangle
+        {
+            width: 0;
+            height: 0;
+            border-top: 40px solid transparent;
+            border-left: 80px solid red;
+            border-bottom: 40px solid transparent;
         }
     </style>
 </head>
@@ -60,7 +88,8 @@
 <body>
     <div id="container">
         <div id="hero">
-
+            <div id="triangle"></div>
+            <span>I need a hero!</span>
         </div>
 
         <div id="bottomSection">
@@ -69,13 +98,13 @@
                     <img src="" alt="first link" />
                     <span>I'm awesome</span>
                 </a>
-                <a class="myLink" href="">
+                <a class="myLink" href="interests.html">
                     <img src="" alt="second link" />
-                    <span>I'm adequate</span>
+                    <span>My interests</span>
                 </a>
-                <a class="myLink" href="">
+                <a class="myLink" href="http://www.google.com">
                     <img src="" alt="third link" />
-                    <span>I suck</span>
+                    <span>Here's Google!</span>
                 </a>
             </div>
 
