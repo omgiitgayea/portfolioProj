@@ -55,6 +55,24 @@ body
     float: right;
     width: 65%;
 }
+#leftSectionContact
+{
+    float: left;
+    width: 20%;
+}
+#leftSectionContact div
+{
+   padding: 5px;
+}
+#rightSectionContact
+{
+    float: right;
+    width: 80%;
+}
+#rightSectionContact div
+{
+    padding: 4px;
+}
 .myLink
 {
     display: block;
@@ -88,9 +106,17 @@ h4
 }
 input:invalid
 {
-    border: 2px solid red;
+    border: 1px solid red;
 }
 input:valid
 {
-    border: 2px solid green;
+    border: 1px solid green;
+}
+#checkList
+{
+    height: 120px;
+}
+#formButtons
+{
+    padding-top: 10px;
 }
