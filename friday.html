@@ -35,6 +35,12 @@
             background-color: darkkhaki;
             box-shadow: 5px 5px 2px #222222;
         }
+        #transpbox
+        {
+            background-color: black;
+            opacity: 0.6;
+            width: 105%;
+        }
         #bottomSection
         {
             overflow: hidden;
@@ -82,12 +88,20 @@
             border-left: 80px solid red;
             border-bottom: 40px solid transparent;
         }
+        .bannerText
+        {
+            font-size: 18px;
+            color: white;
+        }
     </style>
 </head>
 
 <body>
     <div id="container">
         <div id="hero">
+            <div id="transpbox">
+                <span class="bannerText">Here's a bit of text</span>
+            </div>
             <div id="triangle"></div>
             <span>I need a hero!</span>
         </div>
