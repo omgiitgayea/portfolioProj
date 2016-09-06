@@ -3,68 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Playing with Layout</title>
-
+    <link rel="stylesheet" type="text/css" href="portfolioStyle.css">
     <style>
-        html
-        {
-            height: 100%;
-        }
-        body
-        {
-            font-family: "Lucida Grande", Verdana, sans-serif;
-            background: linear-gradient(black, red);
-            margin: 0;
-            padding: 0;
-        }
-        #container
-        {
-            width: 80%;
-            background-color: #FFFFFF;
-            margin: 25px auto;
-            padding: 15px;
-            box-shadow: 10px 10px 5px #111111;
-        }
-        #hero
-        {
-            text-align: center;
-            font-size: 50px;
-            font-style: italic;
-            font-weight: bold;
-            height: 200px;
-            width: 100%;
-            background-color: darkkhaki;
-            box-shadow: 5px 5px 2px #222222;
-        }
-        #transpbox
-        {
-            background-color: black;
-            opacity: 0.6;
-            width: 105%;
-        }
-        #bottomSection
-        {
-            overflow: hidden;
-            margin-top: 15px;
-        }
-        #leftSection
-        {
-            float: left;
-            width: 30%;
-        }
-        #rightSection
-        {
-            float: right;
-            width: 65%;
-        }
-        .myLink
-        {
-            display: block;
-            color: chocolate;
-            width: 100%;
-            float: left;
-            padding: 10px;
-            border-bottom: 1px solid black;
-        }
         a span
         {
             float: left;
@@ -75,24 +15,6 @@
             width: 100px;
             float: left;
         }
-        h4
-        {
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-        #triangle
-        {
-            width: 0;
-            height: 0;
-            border-top: 40px solid transparent;
-            border-left: 80px solid red;
-            border-bottom: 40px solid transparent;
-        }
-        .bannerText
-        {
-            font-size: 18px;
-            color: white;
-        }
     </style>
 </head>
 
@@ -101,6 +23,7 @@
         <div id="hero">
             <div id="transpbox">
                 <span class="bannerText">Here's a bit of text</span>
+                <span class="bannerText">And here's another!</span>
             </div>
             <div id="triangle"></div>
             <span>I need a hero!</span>
@@ -115,6 +38,10 @@
                 <a class="myLink" href="interests.html">
                     <img src="" alt="second link" />
                     <span>My interests</span>
+                </a>
+                <a class="myLink" href="contactReq.html">
+                    <img src="" alt="contact">
+                    <span>I want to know more!</span>
                 </a>
                 <a class="myLink" href="http://www.google.com">
                     <img src="" alt="third link" />

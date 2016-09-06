@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Let's make a Form!</title>
+</head>
+<body>
+    <form method="post">
+        <label for="firstName">First Name: </label><input id="firstName" name="first"><br>
+        <label for="lastName">Last Name: </label><input id="lastName" name="last" required pattern="[a-z][A-Z] {3,15}"><br>
+        Password: <input type="password" id="password" name="pw"><br>
+        Email: <input type="email" id="email" name="eMail"><br>
+        Gender: <input type="radio" id="mGen" name="gender" value="male"><label for="mGen">Male</label>
+                <input type="radio" id="fGen" name="gender" value="female"><label for="fGen">Female</label><br>
+        Hobbies: <select name="hobbies">
+                    <option value="1">Sports</option>
+                    <option value="2">Music</option>
+                    <option value="3">Graphic Design</option>
+                    <option value="4">Sleep!!!!</option>
+                </select><br>
+        I wanna know more! <textarea name="moreInfo" cols="30" rows="7">Type here silly!</textarea><br>
+        <input type="checkbox" name="spam">I would like to receive spam!<br>
+        <input type="submit" value="Submit!">
+        <input type="reset" value="I messed up!"><br>
+    </form>
+</body>
+</html>

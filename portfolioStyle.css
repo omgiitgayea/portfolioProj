@@ -1,0 +1,96 @@
+html
+{
+    height: 100%;
+}
+body
+{
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    background: linear-gradient(black, red);
+    margin: 0;
+    padding: 0;
+    height: 90%;
+}
+#container
+{
+    width: 80%;
+    height: 100%;
+    background-color: #FFFFFF;
+    margin: 25px auto;
+    padding: 15px;
+    box-shadow: 10px 10px 5px #111111;
+}
+#hero
+{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    height: 200px;
+    width: 100%;
+    background: url("testbg.jpg");
+    background-size: contain;
+    box-shadow: 5px 5px 2px #222222;
+}
+#transpbox
+{
+    background-color: black;
+    opacity: 0.6;
+}
+#transpbox:hover
+{
+    opacity: 1.0;
+}
+#bottomSection
+{
+    overflow: hidden;
+    margin-top: 15px;
+}
+#leftSection
+{
+    float: left;
+    width: 30%;
+}
+#rightSection
+{
+    float: right;
+    width: 65%;
+}
+.myLink
+{
+    display: block;
+    color: chocolate;
+    width: 100%;
+    float: left;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.myLink:hover
+{
+    color: darkblue;
+}
+h4
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#triangle
+{
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 80px solid red;
+    border-bottom: 40px solid transparent;
+}
+.bannerText
+{
+    font-size: 18px;
+    color: white;
+}
+input:invalid
+{
+    border: 2px solid red;
+}
+input:valid
+{
+    border: 2px solid green;
+}
