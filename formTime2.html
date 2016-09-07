@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>More Form Fun!</title>
+    <style>
+        form
+        {
+            width: 400px;
+        }
+        .typeBox
+        {
+            height: 30px;
+            font-size: 18px;
+            border: 1px solid #999999;
+            margin-top: 5px;
+            padding-left: 5px;
+        }
+        .radiogroup
+        {
+            margin-top: 15px;
+            float: left;
+        }
+        label
+        {
+            width: 150px;
+            float: left;
+            padding-top: 15px;
+        }
+        .overflowHidden
+        {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="myAction.php" method="post">
+        <div><label>Email Address</label><input class="typeBox" type="text" placeholder="Email"/></div>
+        <div><label>Password</label><input class="typeBox" type="password" placeholder="Password"/></div>
+        <div><label>Phone Number</label><input class="typeBox" type="text" placeholder="(___)___-____"/></div>
+        <div><label>Favorite Color</label><input class="typeBox" type="text" placeholder="Favorite Color"/></div>
+        <div class="overflowHidden"><label>Gender</label><div class="radiogroup"><input type="radio" name="gender"/><span>Male</span><input type="radio" name="gender"/><span>Female</span></div></div>
+        <input type="submit" value="submit" />
+    </form>
+</body>
+</html>

@@ -64,9 +64,16 @@ body
 {
    padding: 5px;
 }
+#leftSectionContact label, span
+{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
 #rightSectionContact
 {
-    float: right;
+    float: left;
     width: 80%;
 }
 #rightSectionContact div
@@ -118,5 +125,49 @@ input:valid
 }
 #formButtons
 {
-    padding-top: 10px;
+    width: 40%;
+    text-align: center;
+    margin-top: 10px;
+}
+#rscFirstCheck
+{
+    margin-top: 5px;
+}
+#endSection
+{
+    margin-top: 30px;
+}
+#submit
+{
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    border: none;
+    margin-top: 5px;
+    padding-left: 5px;
+    background-color: goldenrod;
+}
+#reset
+{
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    border: none;
+    margin-top: 5px;
+    padding-left: 5px;
+    background-color: coral;
+}
+.typeBox
+{
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid #999999;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+textarea
+{
+    margin-top: 10px;
+    font-size: 18px;
+    padding-left: 5px;
 }

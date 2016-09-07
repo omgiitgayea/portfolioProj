@@ -16,70 +16,34 @@
         <form method="post">
             <div id="bottomSection">
                 <div id="leftSectionContact">
-                    <div><label for="firstName">First Name: </label></div>
-                    <div><label for="lastName">Last Name: </label></div>
-                    <div><label for="email">Email: </label></div>
-                    <div><label for="faveSite">Favorite Website:</label></div>
-                    <div id="checkList"><span>I want to know more about: </span></div>
-                    <div><span>What I'd like to know: </span></div>
+                    <label for="firstName">First Name: </label>
+                    <label for="lastName">Last Name: </label>
+                    <label for="email">Email: </label>
+                    <label for="faveSite">Favorite Website:</label>
+                    <span id="checkList">I want to know more about: </span>
+                    <span>What I'd like to know: </span>
                 </div>
 
                 <div id="rightSectionContact">
-                    <div><input id="firstName" name="firstName" required></div>
-                    <div><input id="lastName" name="lastName" required></div>
-                    <div><input type="email" id="email" name="email" required></div>
-                    <div><input type="url" id="faveSite" name="faveSite"></div>
-                    <div><input type="checkbox" id="prog" name="prog"><label for="prog">Programming</label></div>
-                    <div><input type="checkbox" id="3dart" name="3dart"><label for="3dart">3D Art</label></div>
-                    <div><input type="checkbox" id="bass" name="bass"><label for="bass">Playing Bass</label></div>
-                    <div><input type="checkbox" id="music" name="music"><label for="music">Music</label></div>
-                    <div><input type="checkbox" id="bmrt" name="bmrt"><label for="bmrt">Bipolar Magnetic Reversal Theory</label></div>
+                    <div><input class="typeBox" id="firstName" name="firstName" required/></div>
+                    <div><input class="typeBox" id="lastName" name="lastName" required/></div>
+                    <div><input class="typeBox" type="email" id="email" name="email" required/></div>
+                    <div><input class="typeBox" type="url" id="faveSite" name="faveSite"/></div>
+                    <div id="rscFirstCheck"><input type="checkbox" id="prog" name="prog"/><label for="prog">Programming</label></div>
+                    <div><input type="checkbox" id="3dart" name="3dart"/><label for="3dart">3D Art</label></div>
+                    <div><input type="checkbox" id="bass" name="bass"/><label for="bass">Playing Bass</label></div>
+                    <div><input type="checkbox" id="music" name="music"/><label for="music">Music</label></div>
+                    <div><input type="checkbox" id="bmrt" name="bmrt"/><label for="bmrt">Bipolar Magnetic Reversal Theory</label></div>
                     <div><textarea id="moreInfo" name="moreInfo" cols="30" rows="5"></textarea></div>
 
                 </div>
-
             </div>
-            <div><input type="checkbox" id="newsletter" name="newsletter"><label for="newsletter">I would like to receive your infrequent newsletter</label></div>
+
+            <div id="endSection"><input type="checkbox" id="newsletter" name="newsletter"><label for="newsletter">I would like to receive your infrequent newsletter</label></div>
             <div id="formButtons">
-                <input type="submit" value="Submit">
-                <input type="reset" value="Oops! Reset!!">
+                <input id="submit" type="submit" value="Submit">
+                <input id="reset" type="reset" value="Oops! Reset!!">
             </div>
-
-                <!--<div>-->
-                    <!--<label for="firstName">First Name: </label>-->
-                    <!--<input id="firstName" name="firstName" required>-->
-                <!--</div>-->
-                <!--<div>-->
-                    <!--<label for="lastName">Last Name: </label>-->
-                    <!--<input id="lastName" name="lastName" required>-->
-                <!--</div>-->
-                <!--<div>-->
-                    <!--<label for="email">Email: </label>-->
-                    <!--<input type="email" id="email" name="email" required>-->
-                <!--</div>-->
-                <!--<div>-->
-                    <!--<span>I want to know more about: </span>-->
-                    <!--<input type="checkbox" id="prog" name="prog"><label for="prog">Programming</label>-->
-                    <!--<input type="checkbox" id="3dart" name="3dart"><label for="3dart">3D Art</label>-->
-                    <!--<input type="checkbox" id="bass" name="bass"><label for="bass">Playing Bass</label>-->
-                    <!--<input type="checkbox" id="music" name="music"><label for="music">Music</label>-->
-                    <!--<input type="checkbox" id="bmrt" name="bmrt"><label for="bmrt">Bipolar Magnetic Reversal Theory</label>-->
-                <!--</div>-->
-                <!--<div>-->
-                    <!--What I'd like to know: <textarea id="moreInfo" name="moreInfo" cols="30" rows="5"></textarea>-->
-                <!--</div>-->
-                <!--<div>-->
-                    <!--<input type="checkbox" id="newsletter" name="newsletter"><label for="newsletter">I would like to receive your infrequent newsletter</label>-->
-                <!--</div>-->
-                <!--<div>-->
-                    <!--<label for="faveSite">Favorite Website:</label>-->
-                    <!--<input type="url" id="faveSite" name="faveSite">-->
-                <!--</div>-->
-                <!--<div>-->
-                    <!--<input type="submit" value="Submit">-->
-                    <!--<input type="reset" value="Oops! Reset!!">-->
-                <!--</div>-->
-
         </form>
     </div>
 </body>
