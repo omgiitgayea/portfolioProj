@@ -27,7 +27,8 @@ body
     font-weight: bold;
     height: 200px;
     width: 100%;
-    background: url("testbg.jpg");
+    padding-top: 10px;
+    background-image: url("testbg.jpg");
     background-size: contain;
     box-shadow: 5px 5px 2px #222222;
 }
@@ -60,25 +61,16 @@ body
     float: left;
     width: 20%;
 }
-#leftSectionContact div
-{
-   padding: 5px;
-}
 .leftSectionContactText
 {
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    width: 200px;
     float: left;
+    padding-top: 15px;
 }
 #rightSectionContact
 {
     float: left;
     width: 80%;
-}
-#rightSectionContact div
-{
-    padding: 4px;
 }
 .myLink
 {
@@ -93,7 +85,7 @@ body
 {
     color: darkblue;
 }
-h4
+h2
 {
     margin-top: 0;
     margin-bottom: 0;
@@ -121,39 +113,38 @@ input:valid
 }
 .checklist
 {
-    padding-top: 120px;
+    float:left;
+    width: 85%;
+    padding-top: 10px
 }
 #formButtons
 {
-    width: 40%;
+    width: 30%;
     text-align: center;
     margin-top: 10px;
-}
-#rscFirstCheck
-{
-    margin-top: 5px;
 }
 #endSection
 {
     margin-top: 30px;
 }
-#submit
+#submit, #reset
 {
+    border-radius: 25px;
     height: 30px;
     width: 150px;
     font-size: 18px;
     border: none;
     margin-top: 5px;
-    margin-right: 20px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+#submit
+{
     background-color: goldenrod;
+
 }
 #reset
 {
-    height: 30px;
-    width: 150px;
-    font-size: 18px;
-    border: none;
-    margin-top: 5px;
     background-color: coral;
 }
 .typeBox
@@ -169,4 +160,36 @@ textarea
     margin-top: 10px;
     font-size: 18px;
     padding-left: 5px;
+}
+
+/*Menu Bar CSS*/
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+    opacity: 0.8;
+}
+li
+{
+    float: right;
+    border-left: 1px solid white;
+}
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active)
+{
+    background-color: #FFCA28;
+}
+.active
+{
+    background-color: #4CAF50;
 }

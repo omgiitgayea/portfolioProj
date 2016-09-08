@@ -10,32 +10,48 @@
 </head>
 <body>
     <div id="container">
-        <div>
-            <h2>Contact Me</h2>
+        <div id="hero">
+        <ul>
+            <li><a class="active" href="contactReq.html">Contact</a></li>
+            <li><a href="">Resume</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
         </div>
         <form method="post">
+
             <div id="bottomSection">
-                <div id="leftSectionContact">
+                <div>
                     <label class="leftSectionContactText" for="firstName">First Name: </label>
+                    <input class="typeBox" id="firstName" name="firstName" required/>
+                </div>
+                <div>
                     <label class="leftSectionContactText" for="lastName">Last Name: </label>
+                    <input class="typeBox" id="lastName" name="lastName" required/>
+                </div>
+                <div>
                     <label class="leftSectionContactText" for="email">Email: </label>
+                    <input class="typeBox" type="email" id="email" name="email" required/>
+                </div>
+                <div>
                     <label class="leftSectionContactText" for="faveSite">Favorite Website:</label>
+                    <input class="typeBox" type="url" id="faveSite" name="faveSite"/>
+                </div>
+                <div>
                     <span class="leftSectionContactText">I want to know more about: </span>
-                    <span class="checklist" >What I'd like to know: </span>
+                    <div class=checklist>
+                        <div><input type="checkbox" id="prog" name="prog"/><label for="prog">Programming</label></div>
+                        <div><input type="checkbox" id="3dart" name="3dart"/><label for="3dart">3D Art</label></div>
+                        <div><input type="checkbox" id="bass" name="bass"/><label for="bass">Playing Bass</label></div>
+                        <div><input type="checkbox" id="music" name="music"/><label for="music">Music</label></div>
+                        <div><input type="checkbox" id="bmrt" name="bmrt"/><label for="bmrt">Bipolar Magnetic Reversal Theory</label></div>
+                    </div>
+                </div>
+                <div>
+                    <span class="leftSectionContactText" >What I'd like to know: </span>
+                    <textarea id="moreInfo" name="moreInfo" cols="30" rows="5"></textarea>
                 </div>
 
-                <div id="rightSectionContact">
-                    <div><input class="typeBox" id="firstName" name="firstName" required/></div>
-                    <div><input class="typeBox" id="lastName" name="lastName" required/></div>
-                    <div><input class="typeBox" type="email" id="email" name="email" required/></div>
-                    <div><input class="typeBox" type="url" id="faveSite" name="faveSite"/></div>
-                    <div id="rscFirstCheck"><input type="checkbox" id="prog" name="prog"/><label for="prog">Programming</label></div>
-                    <div><input type="checkbox" id="3dart" name="3dart"/><label for="3dart">3D Art</label></div>
-                    <div><input type="checkbox" id="bass" name="bass"/><label for="bass">Playing Bass</label></div>
-                    <div><input type="checkbox" id="music" name="music"/><label for="music">Music</label></div>
-                    <div><input type="checkbox" id="bmrt" name="bmrt"/><label for="bmrt">Bipolar Magnetic Reversal Theory</label></div>
-                    <div><textarea id="moreInfo" name="moreInfo" cols="30" rows="5"></textarea></div>
-                </div>
             </div>
 
             <div id="endSection"><input type="checkbox" id="newsletter" name="newsletter"><label for="newsletter">I would like to receive your infrequent newsletter</label></div>
