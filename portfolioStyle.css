@@ -169,8 +169,8 @@ ul
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #222222;
-    opacity: 0.8;
+    /*background-color: #222222;*/
+    opacity: 1;
 }
 li
 {
@@ -192,4 +192,12 @@ li a:hover:not(.active)
 .active
 {
     background-color: #4CAF50;
+}
+#titleName
+{
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+    text-shadow: 2px 2px 8px #FF0000, 0 0 5px blue;
+    font-size: 32px;
 }
