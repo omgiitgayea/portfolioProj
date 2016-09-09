@@ -1,0 +1,97 @@
+body, html
+{
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#bgImage
+{
+    background-image: url("tiethreequarter.jpg");
+    background-color: black;
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*background-size: cover;*/
+    /*background-position: 50% 50%;*/
+    /*margin: 0 auto;*/
+    /*clear: both;*/
+    /*position: relative;*/
+    /*min-height: 800px;*/
+
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*position: relative;*/
+    /*background-position: 50% 50%;*/
+}
+.centerBox
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.header
+{
+    color: white;
+    width: 100%;
+    padding: 15px 0px;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+}
+.logo
+{
+    font-size: 18px;
+    float: left;
+}
+.nav
+{
+    float: right;
+}
+.nav a
+{
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px 15px 10px;
+    border-left: 1px solid white;
+}
+.nav a:hover
+{
+    color: red;
+    background-color: blueviolet;
+}
+.rightSection
+{
+    color: white;
+    float: right;
+    padding-top: 300px;
+    width: 30%;
+}
+.title
+{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+}
+.text
+{
+    font-size: 20px;
+    margin-left: 0;
+}
+.footer
+{
+    background-color: #FF0000;
+    width: 100%;
+    opacity: .7;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+.copyright
+{
+    color: white;
+    float: right;
+}
