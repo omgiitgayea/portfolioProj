@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slide Show</title>
+    <link rel="stylesheet" type="text/css" href="slide.css">
+</head>
+<body>
+    <div class="container">
+        <a class="button" onclick="plusDivs(-1)">&#10094;</a>
+        <img class="tieSlides" src="interceptor.jpg"/>
+        <img class="tieSlides" src="interceptorBottom.jpg"/>
+        <img class="tieSlides" src="interceptorFront.jpg"/>
+        <img class="tieSlides" src="interceptorBack.jpg"/>
+        <img class="tieSlides" src="interceptorSide.jpg"/>
+        <img class="tieSlides" src="interceptorTop.jpg"/>
+        <img class="tieSlides" src="interceptorRear.jpg"/>
+        <a class="button" onclick="plusDivs(1)">&#10095;</a>
+    </div>
+
+    <script>
+        var slideIndex=1;
+        showDivs(slideIndex);
+
+        function plusDivs(n)
+        {
+            showDivs(slideIndex+=n);
+        }
+        function showDivs(n)
+        {
+            var i;
+            var x=document.getElementsByClassName("tieSlides");
+            if (n > x.length)
+            {
+                slideIndex = 1;
+            }
+            if (n < 1)
+            {
+                slideIndex = x.length;
+            }
+            for (i = 0; i < x.length; i++)
+            {
+                x[i].style.display = "none";
+            }
+            x[slideIndex-1].style.display = "block";
+        }
+    </script>
+</body>
+</html>

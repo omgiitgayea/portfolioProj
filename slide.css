@@ -1,0 +1,25 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width: 90%;
+    height: 50%;
+    margin: 25px auto;
+}
+.tieSlides
+{
+    width: 50%;
+    margin: 0px auto;
+    float: left;
+}
+.button
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: #222222;
+}
