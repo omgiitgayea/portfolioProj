@@ -4,7 +4,8 @@ html
 }
 body
 {
-    font-family: "Lucida Grande", Verdana, sans-serif;
+    /*font-family: "Lucida Grande", Verdana, sans-serif;*/
+    font-family: 'Nova Flat', cursive;
     background: linear-gradient(black, red);
     margin: 0;
     padding: 0;
@@ -144,9 +145,17 @@ input:valid
     background-color: goldenrod;
 
 }
+#submit:hover
+{
+    background-color: darkgoldenrod;
+}
 #reset
 {
     background-color: coral;
+}
+#reset:hover
+{
+    background-color: lightcoral;
 }
 .typeBox
 {
