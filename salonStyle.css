@@ -1,0 +1,95 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('chopchopsalon2.jpg');
+    width: 100%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#container
+{
+    background-image: url('chopchopsalon2.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    /*padding-top: 10px;*/
+}
+#navbar
+{
+    background-color: rgba(0,0,0,0.7);
+    height: 150px;
+}
+.logoPic
+{
+    border-radius: 6px;
+    height: 100px;
+}
+.name
+{
+    font-size: 30px;
+    color: white;
+    text-shadow: 1px 1px 5px pink;
+    display: block;
+}
+.companyPic
+{
+    width: 40%;
+    /*margin-left: 10px;*/
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
+}
+#menu
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+    opacity: .7;
+    display: inline;
+}
+.menuItems
+{
+    float: right;
+    border-right: 1px solid white;
+}
+.menuLinks
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    height: 70px;
+}
+.menuLinks:hover:not(.active)
+{
+    background-color: brown;
+}
+#active
+{
+    background-color: darkgoldenrod;
+}
+#hero
+{
+    margin-top: 20px;
+    margin-right: 10px;
+    /*margin: 10px auto;*/
+    height: 400px;
+    width: 60%;
+    float: right;
+    background-color: rgba(100, 50, 50,0.8);
+    border-radius: 9px;
+    overflow: hidden;
+}
+.titleName
+{
+    font-size: 50px;
+    color: bisque;
+    text-shadow: 1px 1px 5px pink;
+    text-align: center;
+}

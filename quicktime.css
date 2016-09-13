@@ -1,0 +1,21 @@
+body, html
+{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #222222;
+}
+#container
+{
+
+}
+.curvedContainer
+{
+    height: 300px;
+    width: 80%;
+    background-color: #FFCA28;
+    border-radius: 5px;
+    margin: 0px auto;
+    border: 2px dashed white;
+    box-shadow: 5px 5px 10px #4CAF50;
+}
