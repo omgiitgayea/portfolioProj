@@ -3,6 +3,7 @@ body, html
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .container
 {
@@ -10,6 +11,7 @@ body, html
     height: 100%;
     background-color: #4CAF50;
     overflow: hidden;
+    font-size: 40px;
 }
 .topSection
 {
@@ -30,6 +32,7 @@ body, html
     height: 100%;
     float: left;
     background-color: burlywood;
+    padding-top: 20px;
 }
 .bottomSection
 {
@@ -37,12 +40,30 @@ body, html
     height: 30%;
     background-color: cornflowerblue;
 }
+.fadeIn, .fadeIn2
+{
+    animation-name: fadein;
+    animation-duration: 4s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
 .fadeIn
 {
-    animation: fadein 4s
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+.fadeIn2
+{
+    animation-delay: 4s;
+
 }
 @keyframes fadein
 {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+.box
+{
+    text-align: center;
 }

@@ -1,0 +1,80 @@
+body, html
+{
+    height: auto;
+    min-height: 100%;
+    padding: 0;
+    /*background-color: indigo;*/
+    background: linear-gradient(black, red);
+
+}
+#container
+{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    /*overflow: hidden;*/
+}
+#mainBar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+#logoSection
+{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: 2;
+
+}
+#menuSection
+{
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(139, 10, 10, .5);
+    display: inline;
+}
+.menuItems
+{
+    float: right;
+    /*border-left: 1px solid white;*/
+}
+.menuLinks
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.menuLinks:hover:not(.active)
+{
+    background-color: rgba(102, 51, 0, 0.8);
+    transform: scale(1.2);
+}
+.active
+{
+    background-color: darkgoldenrod;
+}
+#resumeContent
+{
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-height: 400px;
+    width: 60%;
+    float:right;
+    background-color: rgba(100, 50, 50, 0.5);
+    border-radius: 9px;
+    overflow: auto;
+    clear: both;
+}
