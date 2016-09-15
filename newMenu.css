@@ -3,14 +3,8 @@ body, html
     height: auto;
     min-height: 100%;
     padding: 0;
-    /*background-color: indigo;*/
-    background: linear-gradient(black, red);
-
-}
-#container
-{
+    background-image: url("hexabump_@2X.png");
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    /*overflow: hidden;*/
 }
 #mainBar
 {
@@ -38,7 +32,7 @@ body, html
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(255, 215, 0, 1);
+    background-color: rgba(255, 215, 0, .5);
     display: inline;
 }
 .menuItems
@@ -56,14 +50,21 @@ body, html
     font-size: 25px;
     transition: all 0.5s;
 }
+.menuLinks:hover
+{
+    color:white;
+    text-decoration: none;
+}
 .menuLinks:hover:not(.active)
 {
     background-color: rgba(102, 51, 0, 0.8);
     transform: scale(1.2);
+    border-radius: 10px;
 }
 .active
 {
     background-color: darkgoldenrod;
+
 }
 #resumeContent
 {
@@ -73,8 +74,50 @@ body, html
     min-height: 400px;
     width: 60%;
     float:right;
-    background-color: rgba(100, 50, 50, 0.5);
+    background: linear-gradient(black, red);
     border-radius: 9px;
     overflow: auto;
     clear: both;
+}
+.formSection
+{
+    background-color: #4CAF50;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+#submit, #reset
+{
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    border: none;
+    margin-top: 5px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 5px black;
+    font-weight: bold;
+}
+#submit
+{
+    background-color: goldenrod;
+
+}
+#submit:hover
+{
+    background-color: darkgoldenrod;
+}
+#reset
+{
+    background-color: coral;
+}
+#reset:hover
+{
+    background-color: lightcoral;
+}
+.myFormatting
+{
+    width: 80%;
+    border-radius: 0px;
 }

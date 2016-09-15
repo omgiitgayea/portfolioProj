@@ -3,64 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <title>Sign Me Up!</title>
-    <link rel="stylesheet" type="text/css" href="portfolioStyle.css">
-    <link href="https://fonts.googleapis.com/css?family=Nova+Flat" rel="stylesheet">
-    <style>
-
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="newMenu.css">
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
 </head>
 <body>
-    <div id="container">
-        <div id="hero">
-        <ul>
-            <li><a class="active" href="contactReq.html">Contact</a></li>
-            <li><a href="">Resume</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="index.html">Home</a></li>
-        </ul>
-        </div>
-        <form method="post">
+    <div class="container">
+        <nav id="mainBar">
+            <div id="logoSection">
+                <a href="newMenuAttempt.html"><img src="crLogo.png" height="100px"/></a>
+            </div>
+            <ul id="menuSection">
+                <li class="menuItems"><a class="menuLinks active" href="contactReq.html">Contact Me</a></li>
+                <li class="menuItems"><a class="menuLinks" href="#">Projects</a></li>
+                <li class="menuItems"><a class="menuLinks" href="resume.html">Resume</a></li>
+                <li class="menuItems"><a class="menuLinks" href="#">About Me</a></li>
+            </ul>
+        </nav>
+        <!--<div id="hero">-->
+        <!--<ul>-->
+            <!--<li><a class="active" href="contactReq.html">Contact</a></li>-->
+            <!--<li><a href="">Resume</a></li>-->
+            <!--<li><a href="">About</a></li>-->
+            <!--<li><a href="index.html">Home</a></li>-->
+        <!--</ul>-->
+        <!--</div>-->
+        <div class="formSection">
+            <header>Want to know more?</header>
+            <!--<form method="post">-->
 
-            <div id="bottomSection">
-                <div>
-                    <label class="leftSectionContactText" for="firstName">First Name: </label>
-                    <input class="typeBox" id="firstName" name="firstName" required/>
-                </div>
-                <div>
-                    <label class="leftSectionContactText" for="lastName">Last Name: </label>
-                    <input class="typeBox" id="lastName" name="lastName" required/>
-                </div>
-                <div>
-                    <label class="leftSectionContactText" for="email">Email: </label>
-                    <input class="typeBox" type="email" id="email" name="email" required/>
-                </div>
-                <div>
-                    <label class="leftSectionContactText" for="faveSite">Favorite Website:</label>
-                    <input class="typeBox" type="url" id="faveSite" name="faveSite"/>
-                </div>
-                <div>
-                    <span class="leftSectionContactText">I want to know more about: </span>
-                    <div class=checklist>
-                        <div><input type="checkbox" id="prog" name="prog"/><label for="prog">Programming</label></div>
-                        <div><input type="checkbox" id="3dart" name="3dart"/><label for="3dart">3D Art</label></div>
-                        <div><input type="checkbox" id="bass" name="bass"/><label for="bass">Playing Bass</label></div>
-                        <div><input type="checkbox" id="music" name="music"/><label for="music">Music</label></div>
-                        <div><input type="checkbox" id="bmrt" name="bmrt"/><label for="bmrt">Bipolar Magnetic Reversal Theory</label></div>
+                <!--<div class="row">-->
+                    <!--<div class="col-md-2"><label class="leftSectionContactText" for="firstName">First Name: </label></div>-->
+                    <!--<div class="col-md-2"><input class="typeBox" id="firstName" name="firstName" required/></div>-->
+                <!--</div>-->
+                <!--<div class="row">-->
+                    <!--<div class="col-md-2"><label class="leftSectionContactText" for="lastName">Last Name: </label></div>-->
+                        <!--<div class="col-md-2"><input class="typeBox" id="lastName" name="lastName" required/></div>-->
+                <!--</div>-->
+                <!--<div class="row">-->
+                    <!--<div class="col-md-2"><label class="leftSectionContactText" for="email">Email: </label></div>-->
+                        <!--<div class="col-md-2"><input class="typeBox" type="email" id="email" name="email" required/></div>-->
+                    <!--</div>-->
+                <!--<div class="row">-->
+                    <!--<div class="col-md-2"><label class="leftSectionContactText" for="faveSite">Favorite Website:</label></div>-->
+                        <!--<div class="col-md-2"><input class="typeBox" type="url" id="faveSite" name="faveSite"/></div>-->
+                    <!--</div>-->
+                <!--<div class="row">-->
+                    <!--<div class="col-md-2"><span>I want to know more about: </span></div>-->
+                        <!--<div class="col-md-2">-->
+                        <!--<div class=checklist>-->
+                            <!--<div><input type="checkbox" id="prog" name="prog"/><label for="prog">Programming</label></div>-->
+                            <!--<div><input type="checkbox" id="3dart" name="3dart"/><label for="3dart">3D Art</label></div>-->
+                            <!--<div><input type="checkbox" id="bass" name="bass"/><label for="bass">Playing Bass</label></div>-->
+                            <!--<div><input type="checkbox" id="music" name="music"/><label for="music">Music</label></div>-->
+                            <!--<div><input type="checkbox" id="bmrt" name="bmrt"/><label for="bmrt">Bipolar Magnetic Reversal Theory</label></div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="row">-->
+                    <!--<div class="col-md-2"><span class="leftSectionContactText" >What else I'd like to know: </span></div>-->
+                    <!--<div class="col-md-2"><textarea id="moreInfo" name="moreInfo" cols="30" rows="5"></textarea></div>-->
+                <!--</div>-->
+
+                <!--<div class="row">-->
+                    <!--<div class="col-md-12"><input type="checkbox" id="newsletter" name="newsletter"><label for="newsletter">I would like to receive your infrequent newsletter</label></div>-->
+                <!--</div>-->
+                <!--<div class="row">-->
+                    <!--<div class="col-md-6 text-center"><input id="submit" type="submit" value="Submit"><input id="reset" type="reset" value="Oops! Reset!!"></div>-->
+                <!--</div>-->
+
+            <!--</form>-->
+            <form class="form-horizontal" method="post">
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Email:</label>
+                    <div class="col-sm-8">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
                     </div>
                 </div>
-                <div>
-                    <span class="leftSectionContactText" >What else I'd like to know: </span>
-                    <textarea id="moreInfo" name="moreInfo" cols="30" rows="5"></textarea>
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="password">Password:</label>
+                    <div class="col-sm-8">
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
                 </div>
-
-            </div>
-
-            <div id="endSection"><input type="checkbox" id="newsletter" name="newsletter"><label for="newsletter">I would like to receive your infrequent newsletter</label></div>
-            <div id="formButtons">
-                <input id="submit" type="submit" value="Submit">
-                <input id="reset" type="reset" value="Oops! Reset!!">
-            </div>
-        </form>
+            </form>
+        </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
