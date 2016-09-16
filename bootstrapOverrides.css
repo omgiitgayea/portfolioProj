@@ -1,0 +1,20 @@
+.contentOverride
+{
+    background-color: transparent;
+}
+.dialogOverride
+{
+    width: 85%;
+}
+.containerOverride
+{
+    width: 85%;
+}
+.extraPadding
+{
+    padding-top: 10px;
+}
+.labelOverride
+{
+    display: block;
+}
