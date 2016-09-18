@@ -5,25 +5,32 @@
     <title>Sign Me Up!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="newMenu.css">
     <link rel="stylesheet" type="text/css" href="bootstrapOverrides.css">
     <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <nav id="mainBar">
-            <div id="logoSection">
-                <a href="newMenuAttempt.html"><img src="crLogo.png" height="100px"/></a>
+    <nav class="navbar navbar-default navbar-fixed-top navbarOverride">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand logoOverride" href="menuFinal.html"><img src="crLogo.png" height=60px></a>
             </div>
-            <ul id="menuSection">
-                <li class="menuItems"><a class="menuLinks active" href="contactReq.html">Contact Me</a></li>
-                <li class="menuItems"><a class="menuLinks" href="#">Projects</a></li>
-                <li class="menuItems"><a class="menuLinks" href="resume.html">Resume</a></li>
-                <li class="menuItems"><a class="menuLinks" href="#">About Me</a></li>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="headingsFont"><a href="aboutMe.html">About Me</a></li>
+                <li class="headingsFont"><a href="resume.html">Resume</a></li>
+                <li class="dropdown headingsFont">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">Porfolio
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu subHeadingsFont">
+                        <li><a href="#">Web Projects</a></li>
+                        <li><a href="newBootstrap.html">Studio Othermir</a></li>
+                    </ul>
+                </li>
+                <li class="active headingsFont"><a href="contactReq.html">Contact Me</a></li>
             </ul>
-        </nav>
-
+        </div>
+    </nav>
+    <div class="container">
         <div class="formSection">
             <header>Want to know more?</header>
 

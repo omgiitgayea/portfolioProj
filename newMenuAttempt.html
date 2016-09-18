@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Lets see how this works</title>
-    <link rel="stylesheet" type="text/css" href="newMenu.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="newMenu.css">
+    <link rel="stylesheet" href="bootstrapOverrides.css">
     <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
 </head>
 <body>
@@ -12,13 +16,45 @@
             <div id="logoSection">
                 <a href="newMenuAttempt.html"><img src="crLogo.png" height="100px"/></a>
             </div>
-            <ul id="menuSection">
-                <li class="menuItems"><a class="menuLinks" href="contactReq.html">Contact Me</a></li>
-                <li class="menuItems"><a class="menuLinks" href="#">Projects</a></li>
-                <li class="menuItems"><a class="menuLinks" href="resume.html">Resume</a></li>
-                <li class="menuItems"><a class="menuLinks" href="#">About Me</a></li>
-            </ul>
+            <div id="menuSection">
+                <ul class="menu">
+                    <li class="menuItems"><a class="menuLinks" href="contactReq.html">Contact Me</a></li>
+                    <li class="menuItems dropdownOverride">
+                        <a class="dropbtn menuLinks" href="javascript:void(0)" onclick="myFunction()">Projects</a>
+                        <div class="dropdown-content" id="myDropDown">
+                            <a class="menuLinks" href="#">Web Projects</a>
+                            <a class="menuLinks" href="#">Studio Othermir</a>
+                        </div>
+                    </li>
+                    <li class="menuItems"><a class="menuLinks" href="resume.html">Resume</a></li>
+                    <li class="menuItems"><a class="menuLinks" href="#">About Me</a></li>
+                </ul>
+            </div>
         </div>
+        <div style="height: 2000px;"></div>
     </div>
+
+    <script>
+        function myFunction()
+        {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function(e)
+        {
+            if (!e.target.matches('.dropbtn'))
+            {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var d = 0; d < dropdowns.length; d++)
+                {
+                    var openDropDown = dropdowns[d];
+                    if (openDropDown.classList.contains('show'))
+                    {
+                        openDropDown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
 </body>
 </html>

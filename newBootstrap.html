@@ -4,19 +4,45 @@
     <meta charset="UTF-8">
     <title>Back to Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="newMenu.css">
     <link rel="stylesheet" href="bootstrapOverrides.css">
     <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
 </head>
 <body>
-<div class="container containerOverride">
+<!--<div class="container-fluid">-->
+<nav class="navbar navbar-default navbar-fixed-top navbarOverride">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand logoOverride" href="menuFinal.html"><img src="crLogo.png" height=60px></a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="headingsFont"><a href="aboutMe.html">About Me</a></li>
+            <li class="headingsFont"><a href="resume.html">Resume</a></li>
+            <li class="dropdown headingsFont">
+                <a class="dropdown-toggle active" data-toggle="dropdown" href="javascript:void(0)">Porfolio
+                    <span class="caret"></span></a>
+                <ul class="dropdown-menu subHeadingsFont">
+                    <li><a href="#">Web Projects</a></li>
+                    <li><a href="newBootstrap.html">Studio Othermir</a></li>
+                </ul>
+            </li>
+            <li class="headingsFont"><a href="contactReq.html">Contact Me</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid">
     <div class="othermirPanel">
         <div><img src="othermirlogo.png" width="30%"/></div>
         <span class="fadeIn">Bringing the imagination</span>
         <span class="fadeIn2">to life!</span>
+    </div>
+    <div class="othermirBlurb">
+        <p>Studio Othermir was more or less started after I transitioned from 2D drawing to 3D modelling then sculpting. The name was in part inspired by a number of Japanese animation houses that were called "Studio insert name here" such as Studio Pierrot (who has made a lot of money off of a blond headed ninja who likes to sneak around in orange clothes..., but that's going off topic).
+        The Othermir name itself was inspired by Lord of the Rings. When The Two Towers came out, I couldn't remember or couldn't bother to remember the name of Boromir's brother, Feromir. So, obviously, the solution was to just call him Othermir. And so the name Studio Othermir was born.</p>
+        <p>Of course, it's not an actual 3d studio, just more a nice way to collect the finished projects I've done in Maya and ZBrush. While both software can be used for hard surface and organic modeling, I prefer Maya in hard surface and ZBrush in organic. I feel I've gotten pretty proficient at the modeling over the years, now it's time to nail down rendering then try more dynamic scenes....assuming I don't destroy my computer in the attempt...</p>
+        <p>So here are some of the things I created. Definitely a sci-fi trend in it. As I finish other things, I'll add them as well. The most recent scene I'm working on may be at the point where I can't go much further with the resources my PC has. So if that's the case, then on to a sniper rifle!</p>
+        <p>* I definitely don't own Star Wars or Fender</p>
     </div>
     <div class="row text-center extraPadding">
         <div class="col-sm-6 col-lg-3">
@@ -82,6 +108,14 @@
                 <img src="stratRear.jpg" class="img-rounded" height="200px">
             </a>
             <div class="imgCaption"></div>
+        </div>
+    </div>
+    <div class="row text-center extraPadding">
+        <div class="col-sm-6 col-lg-6">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/lc7dLRLpiig?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="col-sm-6 col-lg-6">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/hYvQKMXNRo0?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
     </div>
@@ -236,7 +270,7 @@
             <!--</a>-->
         <!--</div>-->
     </div>
-</div>
+<!--</div>-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
