@@ -82,3 +82,7 @@ body, html
 {
     padding-bottom: 20px;
 }
+.labelOverride
+{
+    display: block;
+}

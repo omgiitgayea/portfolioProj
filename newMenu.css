@@ -142,7 +142,7 @@
 }
 .othermirPanel
 {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 20px;
     text-align: center;
     color: blueviolet;
@@ -150,8 +150,9 @@
 }
 .buttons
 {
+    margin: 0 auto;
     text-align: center;
-    width: 100%;
+    width: 50%;
 }
 .othermirBlurb
 {
@@ -176,4 +177,11 @@
 {
     margin-top: 100px;
     color: white;
+}
+.separator
+{
+    height: 2px;
+    width: 100%;
+    background-color: #122b40;
+    margin-bottom: 10px;
 }
