@@ -185,3 +185,33 @@
     background-color: #122b40;
     margin-bottom: 10px;
 }
+.aboutContainer
+{
+    margin-top: 80px;
+    min-height: 400px;
+    width: 100%;
+    background-image: url("cliffsValleys.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px;
+}
+.aboutSectionBlurb, .interests
+{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0 , 0.3);
+    border-radius: 5px;
+    color: navajowhite;
+    padding: 10px;
+}
+.interests
+{
+    margin-top: 5px;
+}
+.line
+{
+    height: 2px;
+    background-color: black;
+    width: 100%;
+}
