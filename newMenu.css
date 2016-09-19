@@ -142,7 +142,8 @@
 }
 .othermirPanel
 {
-    padding-top: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
     text-align: center;
     color: blueviolet;
     font-size: 50px;
@@ -152,33 +153,27 @@
     text-align: center;
     width: 100%;
 }
-
-/*This is a dropdown attempt*/
-.dropdown-content
+.othermirBlurb
 {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-.dropbtn
-{
-    display: inline-block;
     color: white;
-    text-align: center;
-    padding: 11px 16px;
-    text-decoration: none;
+    font-size: 20px;
 }
-.dropdown-content a
-{
-    color: black;
-    padding: 11px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-.show
+.othermirBlurb>span
 {
     display: block;
+    padding-bottom: 10px;
+}
+.thumbnails, .videoThumb
+{
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+.thumbnails
+{
+    height: 200px;
+}
+.projectsPanel
+{
+    margin-top: 100px;
+    color: white;
 }
