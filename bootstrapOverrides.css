@@ -1,7 +1,7 @@
 body, html
 {
     background-image: url("hexabump_@2X.png");
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 /*Here is all the code to give the styling I want for the navbar*/
@@ -41,13 +41,6 @@ body, html
     background-color: darkslateblue;
     transform: scale(1.0);
 }
-/*@media only screen and (min-width: 768px)*/
-/*{*/
-    /*.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {*/
-        /*transform: scale(1.2);*/
-        /*border-radius: 3px;*/
-    /*}*/
-/*}*/
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus
 {
     color: darkblue;

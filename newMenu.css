@@ -188,6 +188,7 @@
 .aboutContainer
 {
     margin-top: 80px;
+    margin-bottom: 15px;
     min-height: 400px;
     width: 100%;
     background-image: url("cliffsValleys.jpg");
@@ -195,23 +196,27 @@
     background-position: right top;
     background-attachment: fixed;
     background-size: cover;
-    padding: 20px;
+    padding: 30px;
+    border-radius: 10px;
 }
 .aboutSectionBlurb, .interests
 {
     font-size: 20px;
-    background-color: rgba(0, 0, 0 , 0.3);
+    background-color: rgba(0, 0, 0 , 0.6);
     border-radius: 5px;
     color: navajowhite;
-    padding: 10px;
+    padding: 20px;
 }
 .interests
 {
-    margin-top: 5px;
+    margin-top: 20px;
 }
 .line
 {
     height: 2px;
-    background-color: black;
+    background-color: darkolivegreen;
     width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 0.8;
 }
