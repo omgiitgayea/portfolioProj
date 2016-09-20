@@ -10,34 +10,37 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
 </head>
 <body>
-<!--<div class="container-fluid">-->
     <nav class="navbar navbar-default navbar-fixed-top navbarOverride">
         <div class="container-fluid">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="glyphicon glyphicon-list"></span>
+                </button>
                 <a class="navbar-brand logoOverride" href="menuFinal.html"><img src="crLogo.png" height=60px></a>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="headingsFont"><a href="aboutMe.html">About Me</a></li>
-                <li class="headingsFont"><a href="resume.html">Resume</a></li>
-                <li class="dropdown headingsFont active">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">Porfolio
-                        <span class="caret"></span></a>
-                    <ul class="dropdown-menu subHeadingsFont">
-                        <li><a href="webProjects.html">Web Projects</a></li>
-                        <li><a href="newBootstrap.html">Studio Othermir</a></li>
-                    </ul>
-                </li>
-                <li class="headingsFont"><a href="contactReq.html">Contact Me</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="headingsFont"><a href="aboutMe.html">About Me</a></li>
+                    <li class="headingsFont"><a href="resume.html">Resume</a></li>
+                    <li class="dropdown headingsFont active">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">Porfolio
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu subHeadingsFont">
+                            <li><a href="webProjects.html">Web Projects</a></li>
+                            <li><a href="newBootstrap.html">Studio Othermir</a></li>
+                        </ul>
+                    </li>
+                    <li class="headingsFont"><a href="contactReq.html">Contact Me</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
-
     <div class="container containerOverride">
-        <div class="othermirPanel">
+        <header class="othermirPanel">
             <div><img src="othermirLogo2.png"/></div>
             <span class="fadeIn">Bringing the imagination</span>
             <span class="fadeIn2">to life!</span>
-        </div>
+        </header>
         <div class="othermirBlurb">
             <span>Studio Othermir was more or less started after I transitioned from 2D drawing to 3D modelling then sculpting. The name was in part inspired by a number of Japanese animation houses that were called "Studio insert name here" such as Studio Pierrot (who has made a lot of money off of a blond headed ninja who likes to sneak around in orange clothes..., but that's going off topic).
             The Othermir name itself was inspired by Lord of the Rings. When The Two Towers came out, I couldn't remember or couldn't bother to remember the name of Boromir's brother, Feromir. So, obviously, the solution was to just call him Othermir. And so the name Studio Othermir was born.</span>
@@ -45,82 +48,88 @@
             <span>So here are some of the things I created. Definitely a sci-fi trend in it. As I finish other things, I'll add them as well. The most recent scene I'm working on may be at the point where I can't go much further with the resources my PC has. So if that's the case, then on to a sniper rifle!</span>
             <span>* I definitely don't own Star Wars or Fender</span>
         </div>
-        <div class="row text-center extraPadding">
-            <div class="col-sm-6 col-lg-3">
-                <a role="button" data-toggle="modal" data-target="#myModal">
-                    <img src="interceptor.jpg" class="thumbnails" height="200px">
-                </a>
-                <div class="imgCaption">I modeled this Tie Interceptor over the course of 2 months and made the maximum use of symmetry.</div>
+
+        <div class="separator"></div>
+
+        <div class="thumbSection">
+            <div class="row text-center extraPadding">
+                <div class="col-sm-6 col-lg-3">
+                    <a role="button" data-toggle="modal" data-target="#myModal">
+                        <img src="interceptor.jpg" class="thumbnails" height="200px">
+                    </a>
+                    <div class="imgCaption">I modeled this Tie Interceptor over the course of 2 months and made the maximum use of symmetry.</div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <a role="button" data-toggle="modal" data-target="#myModal2">
+                        <img src="fembotstandby.jpg" class="thumbnails" height="200px">
+                    </a>
+                    <div class="imgCaption"></div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <a role="button" data-toggle="modal" data-target="#myModal3">
+                        <img src="pouncestance.jpg" class="thumbnails" height="200px">
+                    </a>
+                    <div class="imgCaption"></div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <a role="button" data-toggle="modal" data-target="#myModal4">
+                        <img src="newfinalrender.jpg" class="thumbnails" height="200px">
+                    </a>
+                    <div class="imgCaption"></div>
+                </div>
             </div>
-            <div class="col-sm-6 col-lg-3">
-                <a role="button" data-toggle="modal" data-target="#myModal2">
-                    <img src="fembotstandby.jpg" class="thumbnails" height="200px">
-                </a>
-                <div class="imgCaption"></div>
+            <div class="row text-center extraPadding">
+                <div class="col-sm-6 col-lg-3">
+                    <a role="button" data-toggle="modal" data-target="#myModal5">
+                        <img src="finaltwilekbust.jpg" class="thumbnails" height="200px">
+                    </a>
+                    <div class="imgCaption">This Twi'lek bust was my first attempt at 3D sculpting in ZBrush</div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <a role="button" data-toggle="modal" data-target="#myModal6">
+                        <img src="HelmetFaceMaskComp2.jpg" class="thumbnails" height="200px">
+                    </a>
+                    <div class="imgCaption"></div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <a role="button" data-toggle="modal" data-target="#myModal7">
+                        <img src="HelmetOpenFaceComp.jpg" class="thumbnails" height="200px">
+                    </a>
+                    <div class="imgCaption"></div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <a role="button" data-toggle="modal" data-target="#myModal8">
+                        <img src="heyAFullCup3.png" class="thumbnails" height="200px">
+                    </a>
+                    <div class="imgCaption"></div>
+                </div>
             </div>
-            <div class="col-sm-6 col-lg-3">
-                <a role="button" data-toggle="modal" data-target="#myModal3">
-                    <img src="pouncestance.jpg" class="thumbnails" height="200px">
-                </a>
-                <div class="imgCaption"></div>
+            <div class="row text-center extraPadding">
+                <div class="col-sm-6 col-lg-3">
+                    <a role="button" data-toggle="modal" data-target="#myModal9">
+                        <img src="stratFront.jpg" class="thumbnails" height="200px">
+                    </a>
+                    <div class="imgCaption"></div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <a role="button" data-toggle="modal" data-target="#myModal10">
+                        <img src="stratRear.jpg" class="thumbnails" height="200px">
+                    </a>
+                    <div class="imgCaption"></div>
+                </div>
             </div>
-            <div class="col-sm-6 col-lg-3">
-                <a role="button" data-toggle="modal" data-target="#myModal4">
-                    <img src="newfinalrender.jpg" class="thumbnails" height="200px">
-                </a>
-                <div class="imgCaption"></div>
-            </div>
-        </div>
-        <div class="row text-center extraPadding">
-            <div class="col-sm-6 col-lg-3">
-                <a role="button" data-toggle="modal" data-target="#myModal5">
-                    <img src="finaltwilekbust.jpg" class="thumbnails" height="200px">
-                </a>
-                <div class="imgCaption">This Twi'lek bust was my first attempt at 3D sculpting in ZBrush</div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <a role="button" data-toggle="modal" data-target="#myModal6">
-                    <img src="HelmetFaceMaskComp2.jpg" class="thumbnails" height="200px">
-                </a>
-                <div class="imgCaption"></div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <a role="button" data-toggle="modal" data-target="#myModal7">
-                    <img src="HelmetOpenFaceComp.jpg" class="thumbnails" height="200px">
-                </a>
-                <div class="imgCaption"></div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <a role="button" data-toggle="modal" data-target="#myModal8">
-                    <img src="heyAFullCup3.png" class="thumbnails" height="200px">
-                </a>
-                <div class="imgCaption"></div>
-            </div>
-        </div>
-        <div class="row text-center extraPadding">
-            <div class="col-sm-6 col-lg-3">
-                <a role="button" data-toggle="modal" data-target="#myModal9">
-                    <img src="stratFront.jpg" class="thumbnails" height="200px">
-                </a>
-                <div class="imgCaption"></div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-                <a role="button" data-toggle="modal" data-target="#myModal10">
-                    <img src="stratRear.jpg" class="thumbnails" height="200px">
-                </a>
-                <div class="imgCaption"></div>
-            </div>
-        </div>
-        <div class="row text-center extraPadding">
-            <div class="col-sm-6 col-lg-6">
-                <iframe width="640" height="360" src="https://www.youtube.com/embed/lc7dLRLpiig?rel=0" frameborder="0" allowfullscreen class="videoThumb"></iframe>
-            </div>
-            <div class="col-sm-6 col-lg-6">
-                <iframe width="640" height="360" src="https://www.youtube.com/embed/hYvQKMXNRo0?rel=0" frameborder="0" allowfullscreen class="videoThumb"></iframe>
+            <div class="row text-center extraPadding">
+                <div class="col-sm-6 col-lg-6">
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/lc7dLRLpiig?rel=0" frameborder="0" allowfullscreen class="videoThumb"></iframe>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/hYvQKMXNRo0?rel=0" frameborder="0" allowfullscreen class="videoThumb"></iframe>
+                </div>
             </div>
         </div>
     </div>
 
+<!--The many different modals-->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
         <div class="modal-dialog dialogOverride" role="document">
             <div class="modal-content contentOverride">

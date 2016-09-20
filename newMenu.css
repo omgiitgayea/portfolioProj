@@ -114,6 +114,7 @@
 }
 .imgCaption
 {
+    padding-top: 10px;
     color:white;
     font-size: 20px;
 }
@@ -158,6 +159,7 @@
 {
     color: white;
     font-size: 20px;
+    padding-bottom: 10px;
 }
 .othermirBlurb>span
 {
@@ -175,14 +177,20 @@
 }
 .projectsPanel
 {
-    margin-top: 100px;
-    color: white;
+    margin-top: 80px;
+    font-size: 20px;
+    color: navajowhite;
+    padding: 15px;
+}
+.projectsHeader
+{
+    padding-bottom: 15px;
 }
 .separator
 {
     height: 2px;
     width: 100%;
-    background-color: #122b40;
+    background-color: darkgoldenrod;
     margin-bottom: 10px;
 }
 .aboutContainer
@@ -211,6 +219,16 @@
 {
     margin-top: 20px;
 }
+.interests a
+{
+    color: darkviolet;
+    transition: color 0.5s;
+    text-decoration: none;
+}
+.interests a:hover
+{
+    color: mediumslateblue;
+}
 .line
 {
     height: 2px;
@@ -219,4 +237,9 @@
     margin-top: 10px;
     margin-bottom: 10px;
     opacity: 0.8;
+}
+.thumbSection
+{
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
