@@ -62,12 +62,11 @@
     /*background-color: darkgoldenrod;*/
 
 /*}*/
-#resumeContent
+.resumeContent
 {
     margin-top: 100px;
     margin-right: 10px;
-    margin-bottom: 10px;
-    min-height: 400px;
+    margin-bottom: 70px;
     width: 60%;
     float:right;
     background: linear-gradient(black, red 10%);
@@ -77,40 +76,54 @@
 }
 .formSection
 {
-    background-color: #4CAF50;
+    background: linear-gradient(#111, #122b40 60%);
+    box-shadow: 5px 5px 5px #111;
     border-radius: 5px;
     padding: 10px;
     margin-top: 100px;
+    margin-bottom: 70px;
     font-size: 20px;
+    color: #337ab7;
 }
 .submit, .reset
 {
     border-radius: 10px;
-    height: 30px;
+    height: 50px;
     width: 150px;
-    font-size: 18px;
-    border: none;
+    font-size: 30px;
     margin-top: 5px;
     margin-right: 10px;
     box-shadow: 5px 5px 5px black;
     font-weight: bold;
+    text-shadow:2px 2px 2px #283966;
+    text-decoration: none;
+    transition: all 0.2s;
 }
+.submit:active, .reset:active {
+    position:relative;
+    top:1px;
+}
+
 .submit
 {
-    background-color: goldenrod;
-
+    border: 2px solid darkslateblue;
+    background: linear-gradient(#111, #122b40 20%, #111 80%);
 }
 .submit:hover
 {
-    background-color: darkgoldenrod;
+    color: navajowhite;
+    background: linear-gradient(#122b40, #111 20%, #122b40 80%);
 }
 .reset
 {
-    background-color: coral;
+    color: firebrick;
+    border: 2px solid #5f0000;
+    background: linear-gradient(#111, #9f0000 20%, #111 95%);
 }
 .reset:hover
 {
-    background-color: lightcoral;
+    color: navajowhite;
+    background: linear-gradient(#9f0000, #111 20%, #9f0000 95%);
 }
 .imgCaption
 {
@@ -154,6 +167,7 @@
     margin: 0 auto;
     text-align: center;
     width: 50%;
+    margin-bottom: 20px;
 }
 .othermirBlurb
 {
@@ -181,6 +195,7 @@
     font-size: 20px;
     color: navajowhite;
     padding: 15px;
+    margin-bottom: 70px;
 }
 .projectsHeader
 {
@@ -196,7 +211,7 @@
 .aboutContainer
 {
     margin-top: 80px;
-    margin-bottom: 15px;
+    margin-bottom: 70px;
     min-height: 400px;
     width: 100%;
     background-image: url("cliffsValleys.jpg");
@@ -235,11 +250,66 @@
     background-color: darkolivegreen;
     width: 100%;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     opacity: 0.8;
 }
 .thumbSection
 {
+    margin-bottom: 50px;
     padding-top: 15px;
-    padding-bottom: 20px;
+}
+.centerBox
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer
+{
+    background-color: rebeccapurple;
+    width: 100%;
+    opacity: .7;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    padding: 15px 0px;
+}
+.copyright
+{
+    color: navajowhite;
+    float: right;
+    font-size: 20px;
+}
+.introPanel
+{
+    margin-top: 80px;
+    margin-bottom: 70px;
+    height: 100%;
+    color: aquamarine;
+    font-size: 20px;
+}
+.leftSection
+{
+    background: linear-gradient(#111, #122b40 60%);
+    box-shadow: 5px 5px 5px #111;
+    min-height: 600px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.rightSection
+{
+    padding: 15px;
+}
+.meCaption
+{
+    padding-top: 15px;
+}
+.formHeader
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+.disclaimerText
+{
+    color: orangered;
+    font-size: 12px;
 }

@@ -3,13 +3,27 @@ body, html
     background-image: url("hexabump_@2X.png");
     font-family: 'Ubuntu Condensed', sans-serif;
 }
+html
+{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after
+{
+    box-sizing: inherit;
+}
+body
+{
+    position: relative;
+    min-height: 100%;
+}
 
 /*Here is all the code to give the styling I want for the navbar*/
 .navbarOverride
 {
-    background-color: rgba(255, 215, 0, 1);
+    background-color: gold;
     border-color: transparent;
-    /*margin-top: 20px;*/
     height: 60px;
 }
 .logoOverride
@@ -30,6 +44,7 @@ body, html
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:focus
 {
     color: black;
+    background-color: gold;
     transition: color 1s, background-color 1s, transform 1s, border-radius 1s;
     height: 60px;
     padding-top: 20px;
@@ -53,7 +68,7 @@ body, html
     background-color: darkslateblue;
     transform: scale(1.0);
 }
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 800px)
 {
     .navbar-default .navbar-nav .open .dropdown-menu>li>a
     {
@@ -79,7 +94,7 @@ body, html
         transform: scale(1.0);
     }
 }
-@media only screen and (min-width: 767px)
+@media only screen and (min-width: 800px)
 {
     .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus
     {
@@ -90,7 +105,6 @@ body, html
 {
     color: darkblue;
     background-color: rgba(102, 51, 0, 1);
-    /*transform: scale(1.2);*/
     border-radius: 3px;
     z-index: 1;
 }
