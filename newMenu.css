@@ -1,19 +1,24 @@
+/*Styles for the resume page*/
+.resumeSection
+{
+    color: #eea236;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.resumeGraphic
+{
+    padding-bottom: 20px;
+}
 .resumeContent
 {
-    margin-top: 80px;
-    margin-right: 10px;
-    margin-bottom: 70px;
-    width: 60%;
-    float:right;
-    background: linear-gradient(black, darkgreen 40%);
     border-radius: 9px;
     box-shadow: 5px 5px 5px #111;
-    overflow: auto;
-    clear: both;
-    font-size: 18px;
     padding: 10px;
-    color: #eea236;
+    font-size: 18px;
+    background: linear-gradient(black, darkgreen 40%);
 }
+
+/*Styles for the contact page*/
 .formSection
 {
     background: linear-gradient(#111, #122b40 60%);
@@ -24,6 +29,18 @@
     margin-bottom: 70px;
     font-size: 20px;
     color: #337ab7;
+}
+.formHeader
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+.buttons
+{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 20px;
 }
 .submit, .reset
 {
@@ -65,6 +82,8 @@
     color: navajowhite;
     background: linear-gradient(#9f0000, #111 20%, #9f0000 95%);
 }
+
+/*Styles for the Othermir page*/
 .imgCaption
 {
     padding-top: 10px;
@@ -74,7 +93,7 @@
 .fadeIn, .fadeIn2
 {
     animation-name: fadein;
-    animation-duration: 4s;
+    animation-duration: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
@@ -86,7 +105,7 @@
 }
 .fadeIn2
 {
-    animation-delay: 4s;
+    animation-delay: 2s;
 
 }
 @keyframes fadein
@@ -101,13 +120,6 @@
     text-align: center;
     color: blueviolet;
     font-size: 50px;
-}
-.buttons
-{
-    margin: 0 auto;
-    text-align: center;
-    width: 50%;
-    margin-bottom: 20px;
 }
 .othermirBlurb
 {
@@ -129,6 +141,12 @@
 {
     height: 200px;
 }
+.thumbSection
+{
+    margin-bottom: 50px;
+    padding-top: 15px;
+}
+/*Styles for the projects page*/
 .projectsPanel
 {
     margin-top: 80px;
@@ -148,6 +166,8 @@
     background-color: darkgoldenrod;
     margin-bottom: 10px;
 }
+
+/*Styles for the about me page*/
 .aboutContainer
 {
     margin-top: 80px;
@@ -193,11 +213,8 @@
     margin-bottom: 20px;
     opacity: 0.8;
 }
-.thumbSection
-{
-    margin-bottom: 50px;
-    padding-top: 15px;
-}
+
+/*Styles for the footet*/
 .centerBox
 {
     width: 90%;
@@ -219,6 +236,7 @@
     float: right;
     font-size: 20px;
 }
+/*Styles for the home page*/
 .introPanel
 {
     margin-top: 80px;
@@ -243,18 +261,13 @@
 {
     padding-top: 15px;
 }
-.formHeader
-{
-    font-size: 40px;
-    font-weight: bold;
-}
 .disclaimerText
 {
     color: orangered;
     font-size: 12px;
 }
 
-/*Using Bootstrap glyphicons as the bullet point*/
+/*Using Bootstrap glyphicons as bullet points*/
 .educationBullet, .techWriting, .randdBullet, .jobBullet, .skillsBullet, .subSkills
 {
     display: block;
