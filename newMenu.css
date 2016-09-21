@@ -1,78 +1,18 @@
-#mainBar
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-}
-#logoSection
-{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 1;
-
-}
-#menuSection
-{
-    position: relative;
-    top: 30px;
-    /*width: 100%;*/
-    /*height: 60px;*/
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(255, 215, 0, .5);
-}
-.menu
-{
-    list-style: none;
-    /*display: inline;*/
-}
-.menuItems
-{
-    float: right;
-    height: 60px;
-    border-left: 1px solid white;
-}
-.menuLinks
-{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 11px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    transition: all 0.5s;
-}
-.menuLinks:hover
-{
-    color:white;
-    text-decoration: none;
-}
-.menuLinks:hover:not(.active)
-{
-    background-color: rgba(102, 51, 0, 0.8);
-    transform: scale(1.2);
-    border-radius: 10px;
-}
-/*.active*/
-/*{*/
-    /*background-color: darkgoldenrod;*/
-
-/*}*/
 .resumeContent
 {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-right: 10px;
     margin-bottom: 70px;
     width: 60%;
     float:right;
-    background: linear-gradient(black, red 10%);
+    background: linear-gradient(black, darkgreen 40%);
     border-radius: 9px;
+    box-shadow: 5px 5px 5px #111;
     overflow: auto;
     clear: both;
+    font-size: 18px;
+    padding: 10px;
+    color: #eea236;
 }
 .formSection
 {
@@ -313,3 +253,42 @@
     color: orangered;
     font-size: 12px;
 }
+
+/*Using Bootstrap glyphicons as the bullet point*/
+.educationBullet, .techWriting, .randdBullet, .jobBullet, .skillsBullet, .subSkills
+{
+    display: block;
+}
+.educationBullet:before, .techWriting:before, .randdBullet:before, .jobBullet:before, .skillsBullet:before, .subSkills:before
+{
+    font-family: 'Glyphicons Halflings';
+    font-size: 12px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+}
+.educationBullet:before
+{
+    content: "\e233";
+}
+.techWriting:before
+{
+    content: "\e043";
+}
+.randdBullet:before
+{
+    content: "\e162";
+}
+.skillsBullet:before
+{
+    content: "\e218";
+}
+.subSkills:before
+{
+    content: "\e136";
+}
+.jobBullet:before
+{
+    content: "\e139";
+}
+

@@ -65,6 +65,7 @@ body
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover
 {
     color: antiquewhite;
+    border-radius: 0;
     background-color: darkslateblue;
     transform: scale(1.0);
 }
