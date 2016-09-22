@@ -29,7 +29,7 @@ body
     height: 200px;
     width: 100%;
     padding-top: 10px;
-    background-image: url("testbg.jpg");
+    background-image: url("../images/testbg.jpg");
     background-size: contain;
     box-shadow: 5px 5px 2px #222222;
 }

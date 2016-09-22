@@ -7,7 +7,7 @@ body, html
 }
 #bgImage
 {
-    background-image: url("tiethreequarter.jpg");
+    background-image: url("../images/tiethreequarter.jpg");
     background-color: black;
     /*width: 100%;*/
     /*height: auto;*/

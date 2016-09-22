@@ -3,13 +3,13 @@ body, html
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image: url('chopchopsalon2.jpg');
+    background-image: url('../images/chopchopsalon2.jpg');
     width: 100%;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 #container
 {
-    background-image: url('chopchopsalon2.jpg');
+    background-image: url('../images/chopchopsalon2.jpg');
     height: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
